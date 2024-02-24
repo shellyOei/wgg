@@ -276,11 +276,26 @@
   }
 
   @media only screen and (max-width: 600px) {
-
+    .Rectangle1 {
+      display: block;
+      text-align: center;
+      grid-template-columns: 35% 60%;
+      padding: 15px;
+    }
  
-
   }
 
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 480px) {
+    ul {
+      padding:0;
+    }
 
+    .home {
+      display: block;
+      text-align: center;
+    }
+
+    section {
+      min-height: 50dvh;
+    }
   }
