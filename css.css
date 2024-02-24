@@ -313,6 +313,9 @@
     button {
       width: 80px;
     }
+    .homdkk li {
+      margin-left: 10px;
+    }
   }
 
   @media only screen and (max-height: 700px) {
