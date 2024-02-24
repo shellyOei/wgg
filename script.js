@@ -1,14 +1,4 @@
-console.log("TES PICHA KETEK SMGT")
-
-$(document).ready(function() {
-    $(".second").hide();
-})
-
-// $("#card").click(function() {
-//     $("#card").slideToggle("slow", function() {
-//         // Animation complete.
-//       });
-// })
+console.log("TES")
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
