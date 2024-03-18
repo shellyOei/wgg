@@ -43,7 +43,13 @@
     margin-left: 30px;
     margin-right: 5px;
     font-size: clamp(0.5rem, 4vw, 1rem); 
-    color:beige
+    color: rgba(255, 240, 219, 0.75);
+  }
+  
+  .homdkk li:hover { 
+    cursor: pointer;
+    color: beige;
+    scale: 1.1;
   }
 
   .homdkk {
@@ -78,12 +84,14 @@
     grid-template-columns: 35% 60%;
     column-gap: 10px;
     padding: 15px;
-    transition: box-shadow .5s;
+    transition: all .5s;
     overflow-y: auto;
+    overflow-x: hidden;
   }
 
   .Rectangle1:hover {
     box-shadow: 0 0 15px rgba(121, 121, 121, 0.89);
+    scale: 1.05;
   }
 
   .icons {
